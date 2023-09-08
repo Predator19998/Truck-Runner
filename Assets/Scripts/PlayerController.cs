@@ -13,26 +13,21 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerInput = GetComponent<PlayerInput>();
 
+    }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        verticalInput = context.ReadValue<Vector2>().y;
+        horizontalInput = context.ReadValue<Vector2>().x;
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        verticalInput = playerInput.actions["Movement"].ReadValue<Vector2>().y;
-        horizontalInput = playerInput.actions["Movement"].ReadValue<Vector2>().x;
-
         //Move the vehicle
-        if (verticalInput != 0f )
-        {
-            transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * speed);
-        }
-        //Turn the vehicle
-        if(horizontalInput != 0f)
-        {
-            transform.Rotate(Vector3.up, Time.deltaTime * horizontalInput * turnSpeed);
-        }
+        transform.Rotate(Vector3.up, Time.deltaTime * horizontalInput * turnSpeed);
+        transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * speed);
     }
+
 }

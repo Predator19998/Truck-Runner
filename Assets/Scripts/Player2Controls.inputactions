@@ -39,7 +39,7 @@
                 {
                     "name": "up",
                     "id": "3949f45d-4e39-430e-bd41-4a56954e238d",
-                    "path": "<Keyboard>/upArrow",
+                    "path": "<Keyboard>/i",
                     "interactions": "",
                     "processors": "",
                     "groups": "Player1",
@@ -50,7 +50,7 @@
                 {
                     "name": "down",
                     "id": "e65c3b11-220f-47b9-8a0e-8e33dc6332b0",
-                    "path": "<Keyboard>/downArrow",
+                    "path": "<Keyboard>/k",
                     "interactions": "",
                     "processors": "",
                     "groups": "Player1",
@@ -61,7 +61,7 @@
                 {
                     "name": "left",
                     "id": "686e2619-f4cd-4d15-adf4-e4cdf90aa480",
-                    "path": "<Keyboard>/leftArrow",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": "Player1",
@@ -72,7 +72,7 @@
                 {
                     "name": "right",
                     "id": "3bcb26f3-9a95-4309-bc5e-d354ed2b2fb4",
-                    "path": "<Keyboard>/rightArrow",
+                    "path": "<Keyboard>/l",
                     "interactions": "",
                     "processors": "",
                     "groups": "Player1",

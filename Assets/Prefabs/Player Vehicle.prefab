@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: c6808004343f88c4ea08908a4fdd11de, type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -280,7 +280,7 @@ MonoBehaviour:
     m_ActionId: 42f541f5-4069-40b5-87fe-d7595789cf44
     m_ActionName: Player/CameraToggle[/Keyboard/v,/Keyboard/pageUp]
   m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: 
+  m_DefaultControlScheme: Player1
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 6314519907793088921}

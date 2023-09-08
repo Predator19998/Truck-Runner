@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -723,12 +723,56 @@ PrefabInstance:
       value: Player1
       objectReference: {fileID: 0}
     - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: c6808004343f88c4ea08908a4fdd11de, type: 3}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
       propertyPath: m_DefaultControlScheme
-      value: Player1
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
       propertyPath: m_NotificationBehavior
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: bf2efe6f35b11444e95d2ecb7766b71f, type: 3}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1348007176}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMove
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 901812845003855099, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
       propertyPath: m_RootOrder
@@ -2737,6 +2781,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3858995680632013777, guid: 51a084e4035b24e76997744a50c711d4, type: 3}
   m_PrefabInstance: {fileID: 3858995681538707564}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1348007176 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 901812845003855094, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+  m_PrefabInstance: {fileID: 207623107}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf2efe6f35b11444e95d2ecb7766b71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1350780503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3267,8 +3322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NotificationBehavior: 2
-  m_MaxPlayerCount: 2
+  m_NotificationBehavior: 0
+  m_MaxPlayerCount: -1
   m_AllowJoining: 1
   m_JoinBehavior: 0
   m_PlayerJoinedEvent:
@@ -3920,6 +3975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 901812845003855092, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
       propertyPath: m_Actions
       value: 
@@ -3930,7 +3989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 901812845003855093, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
       propertyPath: m_NotificationBehavior
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 901812845003855099, guid: 5cc702c20ea7d4a968860c14aabeb9ac, type: 3}
       propertyPath: m_RootOrder

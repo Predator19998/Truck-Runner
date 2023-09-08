@@ -1,5 +1,5 @@
 {
-    "name": "PlayerControls",
+    "name": "Player1Controls",
     "maps": [
         {
             "name": "Player",
@@ -79,17 +79,6 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "2D Vector",
-                    "id": "d8669b1c-c6cf-4b1e-8f70-267442902a8d",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": true,
-                    "isPartOfComposite": false
                 },
                 {
                     "name": "",
